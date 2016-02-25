@@ -11,10 +11,8 @@ sys.setdefaultencoding('utf-8')
 from bs4 import BeautifulSoup
 
 filename = 'cookie.txt'
-StudentID = '141220162'
-Password = '450283'
-#StudentID = raw_input("Student ID: ")
-#Password = getpass.getpass("Password:  ")
+StudentID = raw_input("Student ID: ")
+Password = getpass.getpass("Password:  ")
 os.system("cls") # windows
 os.system("clear") # linux
 
